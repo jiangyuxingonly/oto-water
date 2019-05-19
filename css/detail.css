@@ -1,0 +1,197 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4EBBFe;
+    font-size: 0.38rem;
+    box-shadow: 0px 3px 43px 0px rgba(41, 167, 255, 0.13);
+}
+header a{
+    color: #4EBBFe;
+}
+.goods{
+    padding: 0 0.22rem;
+    height: auto;
+}
+.thumb{
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb img{
+    width: 3rem;
+    height: 3.6rem;
+}
+.goods h1{
+    font-size: 0.28rem;
+    color: #000;
+    opacity: 0.6;
+}
+.goods p.desc{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.info {
+    font-size: 0.2rem;
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.info span{
+    margin-right: 0.2rem;
+}
+.info span:first-child{
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.info span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+.info span:nth-child(3){
+    color: #36d681;
+    background: rgba(54,214,129,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+}
+.info .total{
+    float: right;
+}
+.discount{
+    margin-top: 0.15rem;
+    font-size: 0.16rem;
+}
+.discount b{
+    line-height: 0.4rem;
+}
+.discount a img{
+    width: 0.8rem;
+    height: 0.6rem;
+    float: left;
+    overflow: hidden;
+}
+.discount span{
+    padding: 0.08rem 0.2rem;
+    background-color:#36d681;
+    background-image: linear-gradient(-90deg, #ffca3b,#ff933b);
+    color: #fbfeff;
+    border-radius: 0.22rem;
+}
+.title{
+    font-size: 0.32rem;
+    color: #41b2fc;
+    padding: 0.4rem 0.22rem;
+    position: relative;
+}
+.title span::before{
+    content: '';
+    position: absolute;
+    top: 0.6rem;
+    left: 0.05rem;
+    width: 0.1rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #4EBBFe;
+}
+.title b{
+    color: #4f5b64;
+}
+.title a{
+    float: right;
+    color: #41b2fc;
+    font-size: 0.22rem;
+}
+.title a i{
+    width: 0.11rem;
+    height: 0.18rem;
+}
+.title a i:last-child{
+    opacity: 0.5;
+}
+.comment{
+    height: auto;
+    padding: 0 0.22rem;
+    margin-bottom: 0.6rem;
+}
+.comment .commentitem{
+    height: 1.97rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    display: flex;
+}
+.comment .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: none;
+}
+.comment .commentinfo{
+    flex-grow: 1;
+    padding-top: 0.3rem;
+    padding-left: 0.2rem;
+}
+.infotop{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    overflow: hidden;
+}
+.infotop .username{
+    float: left;
+    margin-right: 0.4rem;
+}
+.infotop .data{
+    float: right;
+}
+.infotop .star{
+    float: left;
+    position: relative;
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.infotop .star div{
+    width: 1.28rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.infotop .star div [src]{
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.comment .commentcon{
+    width: 6rem;
+    font-size: 0.2rem;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.comment .position{
+    font-size: 0.22rem;
+    line-height: 0.32rem;
+    color: #000;
+    opacity: 0.3;
+}
+.comment .xie img{
+    width: 1.8rem;
+    height: 1rem;
+}
+.pump img{
+    width: 1.31rem;
+    height: 1.37rem;
+}
